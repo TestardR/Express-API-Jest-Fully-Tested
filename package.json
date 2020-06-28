@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.9.20"
+  },
+  "devDependencies": {
+    "jest": "^26.1.0",
+    "mongodb-memory-server": "^6.6.1",
+    "node-mocks-http": "^1.8.1",
+    "nodemon": "^2.0.4",
+    "supertest": "^4.0.2"
+  },
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "jest --watchAll"
+  },
+  "name": "TDD",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT"
+}
